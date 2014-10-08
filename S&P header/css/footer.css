@@ -1,0 +1,86 @@
+  .footer-inner-container {
+    margin-top: 60px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.footer-titles {
+    font-size: 18px;
+    font-family: Agency FB;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    margin-top: 20px;   
+}
+.address {
+    font-size: 14px;
+    font-family: Gibson;
+    line-height: 24px;
+}
+.contan-num {
+    font-family: Gibson;
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 15px;
+}
+.contan-num p {
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.accepts {
+    font-size: 16px;
+    font-family: Gibson;
+    margin-top: 30px;  
+    margin-left: -15px;
+}
+.list > ul > li {
+    font-size: 14px;
+    font-family: Gibson;
+    font-style: italic;
+    line-height: 24px;
+    list-style: initial;
+}
+
+.icon{
+    width: 65px;   
+    padding:5px;
+}
+.list >ul{
+    margin-left: -25px;
+}
+.map-img {
+    width: 544px;
+    height: 279px;
+    border: 1px solid #B39862;
+}
+.copyright{
+    margin-top: 20px;
+    font-size:12;
+    font-family: Gibson;
+}
+.web{
+    width: 20px;
+}
+.right{
+    text-align: right;
+}
+.spot {
+    position: static;
+    z-index: 1;
+    margin-top: -163px;
+    margin-left: 234px;
+}
+.unstyled .icon {
+    width: 30px;
+}
+.unstyled {
+    list-style: none;
+    padding: 0;
+}
+.unstyled > li {
+    display: inline-block;
+}

@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.testimonial-h2-tag {
+	margin-left: 45px;
+}
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.testimonial-mycontroller {
+	width: 1170px;
+}
+.testimonial-wrapper {
+	width: 100%;
+	margin: 0 auto 0;
+}
+
+.testimonial-date a > p {
+	margin-top: 10px;
+	display: inline-block;
+	padding: 30px 0px 20px 24px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	width: 80px;
+	height: 80px;
+}
+
+.testimonial-date a > p:hover {
+	background-color: gray;
+	color: white;
+}
+.testimonial-date-row {
+	margin-left: 300px;
+	margin-top: -30px;
+}
+
+.testimonial-date {
+	width: 115px;
+}
+
+.testimonial-month-section {
+	margin-top: 20px;
+	border: 1px solid gray;
+}
+
+.testimonial-month-row {
+	margin-left: 170px;
+	margin-top: 43px;
+}
+.testimonial-month {
+	display: inline-block;
+ }
+
+.testimonial-month > a {
+border-radius: 50%;
+display: block;
+border: 1px solid gray;
+padding: 14px 10px;
+width: 45px;
+height: 45px;
+text-align: center;
+font-size: 12px;
+}
+
+
+
+.testimonial-month > a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.testimonial-comment-section {
+	margin-top: 60px;
+}
+.testimonial-comment-part {
+	margin-bottom: 20px;
+}
+
+.testimonial-comment-photo {
+padding-top: 20px;
+padding-left: 45px;
+}
+
+.testimonial-comment-msg > p {
+text-align: justify;
+}
+
+.testimonial-comment-social {
+padding-left: 40px;
+}
+.testimonial-comment-social > ul {
+margin-left: -40px;
+margin-top: -7px;
+}
+.testimonial-social-icon {
+	display: inline-block;
+	padding: 0px 5px;
+}
+
+.testimonial-social-icon > img{
+	width:35px;
+	height: 35px;	
+}
+
+.testimonial-active {
+	background-color: gray;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+	padding: 32px 0px 20px 24px;
+	border-radius: 50%;
+	border: 1px solid gray;
+	width: 80px;
+	height: 80px;
+}
+
+.testimonial-month-active {
+	display: block;
+	border-radius: 50%;
+	border: 1px solid gray;
+	padding: 14px 10px;
+	width: 45px;
+	height: 45px;
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	background-color: black;
+}

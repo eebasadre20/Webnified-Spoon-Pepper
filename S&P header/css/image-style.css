@@ -1,0 +1,17 @@
+li {
+	list-style-type: none;
+}
+
+.header-image-wrapper {
+	margin:0;
+	background-color: black;
+	width: inherit;
+}
+
+.header-food-tray {
+	display: inline;
+}
+
+.header-img-size {
+	width: 23%;
+}

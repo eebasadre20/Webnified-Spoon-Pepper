@@ -1,0 +1,52 @@
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.modal {
+    width: 79%;
+    border: 1px solid #B29558;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}
+.modal-img{
+    margin: 0 15px 0 30px;
+}
+
+.modal-close {
+    text-align: right;
+    font-family: Gibson;
+    font-size: 32px;
+    padding: 5;
+    margin-right: 5px;
+}
+.modal-close > a{
+    text-decoration: none;
+    color:black;
+}
+.modal-img {    
+    height: 230px;
+    /* border: 1px solid black; */
+}
+.modal-title {
+    font-size: 26px;
+    font-family: Agency FB;
+}
+.message {
+    font-size: 16px;
+    font-family: Gibson;
+    line-height: 27px;
+    padding: 17px 0 17px 0;
+}
+.booking {
+    font-size: 18px;
+    font-family: Gibson;
+    color: #C3B39B;
+}
+.booking > a {
+    color: #C3B39B;
+    font-style: italic;
+}

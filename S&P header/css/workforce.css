@@ -1,0 +1,38 @@
+.member > h2 {
+    margin-bottom: 0px;
+}
+.workforce-inner-container {
+    width: 100%;
+    margin-top:60px;
+}
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+.workforce {
+    font-size: 36px;
+    font-family: Agency FB;
+}
+.member-title {
+    font-size: 16px;
+    font-family: Agency FB;
+    font-weight: bold;
+}
+.member-description {
+    font-size: 16px;
+    font-family: Gibson;
+    line-height: 24px;
+    margin: 10px 0 10px 0;
+}
+
+.members.row{
+    padding: 100px 0 15px 0;
+}
+.member {
+    padding-top: 50px;
+}
+.inner-img {
+    width: 100%;
+    
+    border-radius: 50%;
+}

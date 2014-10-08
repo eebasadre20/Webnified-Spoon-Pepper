@@ -1,0 +1,79 @@
+<html ng-app="testApp">
+	<head>
+		<title>Spoon and Pepper</title>
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/testimonial.css">
+	</head>
+	<body>
+		<section class="container testimonial-mycontainer ng-scope" ng-controller="TestController">
+		 <section class="testimonial-wrapper">
+			<section class="row testimonial-h2-tag">
+				<h2>Testimonials</h2>
+			</section>
+			<section class="row testimonial-date-row">
+				<section class="col-md-4 testimonial-date">
+				<a href="#" ng-click="setTabPanel(2013)">
+					<p ng-class="{'testimonial-active':checkYear(2013)}">2013</p>
+				</a>
+				</section>
+				<section class="col-md-4 testimonial-date">
+				<a href="#" ng-click="setTabPanel(2014)">
+					<p ng-class="{'testimonial-active':checkYear(2014)}">2014</p>
+				</a>
+				</section>
+				<section class="col-md-4 testimonial-date">
+				<a href="#" ng-click="setTabPanel(2015)">
+					<p ng-class="{'testimonial-active':checkYear(2015)}">2015</p>
+				</a>
+				</section>
+			</section>
+
+			<section class="row testimonial-month-section" ng-show="monthDisplay == true">
+				<section class="row">
+					<ul class="testimonial-month-row">
+						<li class="testimonial-month" ng-click="setMonthPanel('January')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('January')}">Jan</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('February')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('February')}">Feb</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('March')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('March')}">Mar</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('April')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('April')}">Apr</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('May')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('May')}">May</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('June')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('June')}">Jun</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('July')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('July')}">Jul</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('August')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('August')}">Aug</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('September')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('September')}">Sep</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('October')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('October')}">Oct</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('November')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('November')}">Nov</a></li>
+						<li class="testimonial-month" ng-click="setMonthPanel('December')"><a href="#" ng-class="{'testimonial-month-active':checkMonth('December')}">Dec</a></li>
+					</ul>
+				</section>
+				<section class="row testimonial-comment-section">
+					<section class="row testimonial-comment-part" ng-repeat="comments in displayComments">
+						<section class="col-md-4 testimonial-comment-photo">
+							<img ng-src="{{comments.img_url}}" alt="">
+						</section>
+
+						<section class="col-md-5 testimonial-comment-msg">
+							<p>
+								{{comments.testimony}}
+							</p>
+						</section>
+
+						<section class="col-md-3 testimonial-comment-social">
+							<h5>Share this on</h5>
+							<ul>
+								<li class="testimonial-social-icon"><img ng-src="images/soc-icon/twitter.png" alt=""></li>
+								<li class="testimonial-social-icon"><img ng-src="images/soc-icon/FB.png" alt=""></li>
+								<li class="testimonial-social-icon"><img ng-src="images/soc-icon/Instagram.png" alt=""></li>
+							</ul>
+						</section>
+					</section>
+				</section>
+			</section>
+	</section>
+</section>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+		<script src="library/script.js"></script>
+	
+</body>
+</html>
+
